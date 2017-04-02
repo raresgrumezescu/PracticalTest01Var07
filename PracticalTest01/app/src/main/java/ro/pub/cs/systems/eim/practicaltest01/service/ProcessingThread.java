@@ -13,7 +13,7 @@ import ro.pub.cs.systems.eim.practicaltest01.general.Constants;
 public class ProcessingThread extends Thread {
 
     private Context context = null;
-    private boolean isRunning = false;
+    private boolean isRunning = true;
 
     private Random random = new Random();
 
